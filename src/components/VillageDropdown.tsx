@@ -24,7 +24,7 @@ const VillageDropdown: React.FC<VillageDropdownProps> = ({
       }}
       disabled={!districtId}
     >
-      <option value="">Select Village</option>
+      <option value="">Select Munci/Rular Munci</option>
       {villages.map((village) => (
         <option key={village.id} value={village.id}>
           {village.name}
